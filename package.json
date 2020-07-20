@@ -1,0 +1,25 @@
+{
+  "name": "@raydeck/registry-manager",
+  "version": "1.0.0",
+  "description": "Registry for environment variables",
+  "main": "lib/index.ts",
+  "types": "lib/types",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/registry-manager.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/registry-manager/issues"
+  },
+  "homepage": "https://github.com/rhdeck/registry-manager#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "typedoc": "^0.17.8",
+    "typescript": "^3.9.7"
+  }
+}

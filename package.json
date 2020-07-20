@@ -5,7 +5,8 @@
   "main": "lib/index.ts",
   "types": "lib/types",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "tsc && typedoc && git commit docs -m 'updated docs'"
   },
   "repository": {
     "type": "git",

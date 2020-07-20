@@ -1,6 +1,6 @@
 {
   "name": "@raydeck/registry-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Registry for environment variables",
   "main": "lib/index.ts",
   "types": "lib/types",

@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/types",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsc --noEmit",
     "prepublishOnly": "tsc && typedoc && git commit docs -m 'updated docs' && git push"
   },
   "repository": {

@@ -9,4 +9,7 @@ export const exists = (key: string) => {
   return registry[key] || process.env[key];
 };
 export const set = (key: string, value: string) => (registry[key] = value);
+export const getAll = () => {
+  return { ...process.env, ...registry };
+};
 export default registry;
